@@ -1,0 +1,42 @@
+body {
+	background: #ecf0f1;
+	padding: 30px;
+}
+h1 {
+	text-align: center;
+}
+
+.intro-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+.intro-wrapper h2 {
+	margin: 0 20px;
+}
+
+.shows {
+	display: flex;
+	justify-content: space-around;
+}
+
+.shows .nes-container {
+	margin: 20px;
+}
+
+.whats-going-on {
+}
+
+
+
+
+/*NES STYLE OVERRIDES*/
+.nes-container.with-title>.title {
+	font-size: 1.5em;
+	background: #ecf0f1;
+	color: #92cc41;
+	margin: -2.8rem 0 1rem;
+}
